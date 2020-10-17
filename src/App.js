@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom';
 
 class App extends Component { 
  
-  
     onDeletedClick = (subscriberId) => {
       this.props.deleteSubscriberHandler(subscriberId); 
     }
