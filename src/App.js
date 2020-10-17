@@ -19,7 +19,7 @@ class App extends Component {
             <Link to="/Addsubscriber"><button className="custom-btn add-btn"> Add </button></Link>
             <div className="grid-container heading-container">
               <span className="grid-item name-heading"> Name </span>
-              <span className="grid-item phone-heading"> Phone </span>
+              <span className="grid-item phone-heading"> Phonenumber </span>
             </div>
              {
                this.props.subscribers_list_to_show.map(sub=>{
